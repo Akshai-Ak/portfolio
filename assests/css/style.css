@@ -1,0 +1,123 @@
+#intro{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    min-height: 800px;
+}
+.btn{
+    border:solid 2px white;
+    background-color: transparent;
+}
+button a {
+    color: white;
+    text-decoration: none;
+    
+}
+button a:hover {
+    color: white;
+    text-decoration: none; 
+}
+#about{
+    background-color: #dadada!important;
+}
+#pic{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#proj{
+    color: white;
+}
+.bg-light {
+    background-color: #343a40!important;
+    color:white
+}
+.tech{
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#education{
+    
+    background-color: #dadada!important;
+    /* color:white; */
+    padding-bottom: 50px;
+}
+
+svg{
+    width:30px;
+}
+.git,.email{
+    color: black
+}
+#contact{
+    background-color: #dadada!important;
+    text-align: center;
+}
+.bg-info {
+    background-color: #17a2b8!important;
+}
+html {
+    scroll-behavior: smooth;
+  }
+@media (min-width: 320px) and (max-width: 425px){
+    .table{
+      
+        font-size: .5rem;
+    }
+}
+.ak{
+    font-family: cursive;
+    font-size:3rem
+}
+#des{
+    font-size:1.5rem
+}
+a {
+    text-decoration: none;
+}
+.cv {
+    color: #f8f9fa;
+    background-color: #212529;
+    border-color: #f8f9fa;
+}
+.cv:hover {
+    color: #f8f9fa;
+
+}
+#me{
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+@media (min-width: 768px){
+#pic {
+    border-radius: 70%;
+    width: 225px;
+    height: 226px;
+}
+}
+@media (min-width: 576px){
+.col-sm-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.lang{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
